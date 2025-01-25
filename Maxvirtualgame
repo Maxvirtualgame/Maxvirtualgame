@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Max Virtual Game - Esperienza di gioco virtuale all'avanguardia.">
+    <title>Max Virtual Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Benvenuti in Max Virtual Game!</h1>
+            <p>Scopri esperienze di gioco virtuale incredibili e innovative.</p>
+            <a href="#servizi" class="cta-button">Scopri i nostri giochi</a>
+        </div>
+    </section>
+
+    <!-- Chi Siamo -->
+    <section id="chi-siamo">
+        <h2>Chi Siamo</h2>
+        <p>Max Virtual Game è un'azienda all'avanguardia nel settore dei giochi virtuali, con l'obiettivo di offrire esperienze immersive uniche. Ci dedichiamo a sviluppare giochi e esperienze che sfruttano le ultime tecnologie di realtà aumentata e virtuale per rendere il gioco più coinvolgente che mai.</p>
+    </section>
+
+    <!-- Servizi -->
+    <section id="servizi">
+        <h2>I Nostri Servizi</h2>
+        <div class="service">
+            <h3>Realtà Virtuale Immersiva</h3>
+            <p>Offriamo esperienze di gioco in realtà virtuale che ti catapultano in mondi fantastici.</p>
+        </div>
+        <div class="service">
+            <h3>Simulazioni per Aziende</h3>
+            <p>Creiamo simulazioni interattive per il training e lo sviluppo aziendale.</p>
+        </div>
+        <div class="service">
+            <h3>Eventi e Tornei Virtuali</h3>
+            <p>Organizziamo eventi e tornei online per sfidare altri appassionati di giochi virtuali.</p>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section id="contatti">
+        <h2>Contattaci</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="messaggio">Messaggio:</label>
+            <textarea id="messaggio" name="messaggio" required></textarea>
+
+            <button type="submit">Invia Messaggio</button>
+        </form>
+        <p>Indirizzo: Via Virtual 123, Milano, Italia</p>
+        <p>Telefono: 123-456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Max Virtual Game - Tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>
